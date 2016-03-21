@@ -1,4 +1,5 @@
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
+nnoremap <leader>c :call <SID>align()<CR>
 
 function! s:align()
   let p = '^\s*|\s.*\s|\s*$'
